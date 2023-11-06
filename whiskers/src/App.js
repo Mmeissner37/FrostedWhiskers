@@ -1,5 +1,6 @@
-
+// import './Components';
 import './App.css';
+
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       <div class="container">
         <div>
           <img
-            src="./assets/CatCafe2.jpg"
+            src="./Components/CatCafe2.jpg"
             alt="cat on counter with coffee"
             height="425px"
             width="1000px"
@@ -57,12 +58,12 @@ function App() {
         <p>Want a homemade pastry without the mess?</p>
         <p>Then come on down to Old Town Winchester!</p>
         <p>The delicious joy of caffeine, sweets, and playing with cats.</p>
-        <p>There's nothing sweeter! <img src="./assets/Cat_in_cup.jpg" alt="cat in a cup" height= "50px" width="50px" /></p>
+        <p>There's nothing sweeter! <img src="./Components/Cat_in_cup.jpg" alt="cat in a cup" height= "50px" width="50px" /></p>
         <br/>
         <div id="menu-whole">
           <div class="coffee">
             <img
-              src="./assets/Coffee-background.jpg"
+              src="./Components/Coffee-background.jpg"
               alt="coffe bean background"
               height="600px"
               width="550px"
