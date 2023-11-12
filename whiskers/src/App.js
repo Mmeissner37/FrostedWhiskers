@@ -1,4 +1,3 @@
-// import './Components';
 import './App.css';
 
 
@@ -11,12 +10,8 @@ function App() {
             <a class="nav-link" href="#about-welcome"><strong>About</strong></a>
             <a class="nav-link" href="#menu"><strong>Menu</strong></a>
             <a class="nav-link" href="#products"><strong>Products</strong></a>
-            <a class="nav-link" href="#meet_our_adoptable_cats"
-              ><strong>Meet Our Cats</strong></a
-            >
-            <a class="nav-link" href="#local_rescues"
-              ><strong>Local Rescues</strong></a
-            >
+            <a class="nav-link" href="#meet_our_adoptable_cats"><strong>Meet Our Cats</strong></a>
+            <a class="nav-link" href="#local_rescues"><strong>Local Rescues</strong></a>
           </ul>
         </header>
       </div>
