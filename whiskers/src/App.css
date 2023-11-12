@@ -4,6 +4,13 @@
   }
 }
 
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .App {
+    width: 100%;
+  }
+}
+
 body {
   background-color: burlywood;
   max-width: 1000px;
