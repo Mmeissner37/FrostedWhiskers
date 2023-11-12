@@ -2,6 +2,7 @@ import './App.css';
 import TitleImage from './components/Title';
 import AboutSection from './components/About';
 import MenuItems from './components/Menu';
+import RescueGroups from './components/Rescues';
 
 function App() {
   return (
@@ -123,24 +124,7 @@ function App() {
       </div>
       <br />
       <hr />
-      <div class="local_rescues">
-        <h3 id="local_rescues">Local Rescues</h3>
-        <hr />
-        <div class="grid-container2">
-            <div class="grid-item2">
-                <h4>Dakota's Dream</h4>
-                <a href="http://dakotasdream.org/"><img src="./assets/Dakotas_Dream_Logo.png" alt="Dakota's Dream Logo"/></a>
-            </div>
-            <div class="grid-item2">
-                <h4>SPCA Nova</h4>
-                <a href="https://spcanova.org/"><img src="./assets/SPCA-NOVA-Logo.png" alt="SPCA Nova Logo"/></a>
-            </div>
-            <div class="grid-item2">
-                <h4>Frederick County Esther Boyd Animal Shelter</h4>
-                <a href="https://www.fcva.us/departments/animal-shelter"><img src="./assets/FCAS.jpg" height="250px" width="250px" alt="FCEB Shelter Logo"/></a>
-            </div>
-      </div>
-      </div>
+      <RescueGroups />
       <footer>
         <h5>Copywright © 2023</h5>
         <p>
